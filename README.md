@@ -19,6 +19,6 @@ Proyek ini berisi Test Case otomatis untuk memverifikasi fungsionalitas dan vali
    - Skenario Negatif (Bug Kritis): Akan berstatus PASS (HIJAU), tetapi Log WARNING yang jelas akan dicatat di laporan (e.g., "GAGAL KRITIS. Expected: GAGAL submit"), menandakan bug validasi.
 
 📂 Struktur Utama Path Deskripsi Test
-Suites/TS_DemoQA.ts File eksekusi utama (menggunakan data dari Data Files).
+Suites/TS_DemoQA.ts File eksekusi utama.
 Include/features/Berisi file Gherkin (.feature) yang mendefinisikan skenario.
 Include/scripts/groovy/Berisi file Groovy yang mengimplementasikan logika pengujian.
