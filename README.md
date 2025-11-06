@@ -11,12 +11,12 @@ Proyek ini berisi Test Case otomatis untuk memverifikasi fungsionalitas dan vali
 🛠️ Cara Menjalankan TestProyek ini dijalankan melalui Test Suite utama yang menggunakan Data-Driven Testing (DDT).
 1. Eksekusi Melalui Katalon Studio
    - Buka proyek di Katalon Studio.
-   - Buka Test Suites > TS_Forms_Registration_DDT.
+   - Buka Test Suites > TS_DemoQA.ts.
    - Klik tombol Run dan pilih Browser (Chrome disarankan).
 2. Output dan Status TestSkenario Positif:
    - Akan berstatus PASS (HIJAU) jika submission berhasil dan data di modal akurat.
    - Skenario Negatif (Validasi Berhasil): Akan berstatus PASS (HIJAU) karena form berhasil gagal submit.
-   - Skenario Negatif (Bug Kritis): Akan berstatus PASS (HIJAU), tetapi Log WARNING yang jelas akan dicatat di laporan (e.g., "GAGAL KRITIS. Expected: GAGAL submit"), menandakan bug validasi.
+   - Skenario Negatif (Bug Kritis): Log WARNING yang jelas akan dicatat di laporan (e.g., "GAGAL KRITIS. Expected: GAGAL submit"), menandakan bug validasi.
 
 📂 Struktur Utama Path Deskripsi Test
 Suites/TS_DemoQA.ts File eksekusi utama.
